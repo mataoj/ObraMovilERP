@@ -1,0 +1,427 @@
+
+body{
+	background: linear-gradient(0deg, #ffffff, #4fb3fc 350px, #4fb3fc 50px, #4fb3fc 50px) repeat-x ;
+	background-size: 350px 350px;	
+	color: #8a8a8a;
+	font-family: Arial;
+	font-size: 16px;
+	text-align: center;
+
+}
+
+header{
+	background: url("../img/txt_obramovil.png") no-repeat 2%, white;
+	box-shadow: rgba(0,0,0,0.5) 0px 5px 10px;
+	margin: 0 ;
+	padding: 1em 0 0 0;
+	width: 100%;
+	height: 24px;
+}
+header ul {
+	bottom: 1.3em;
+	list-style: none;
+	text-align: right;
+	position: relative;
+
+	
+}
+header ul li {
+	display: inline-block;
+}
+header ul li a {
+	background: #f5f5f7;
+	color: #c8c8c8;
+	margin: 0;
+	padding: 0.6em 1em;
+	text-decoration: none;
+	transition: all 1s ease;
+}
+header ul li a:hover {
+	background: white;
+	color: black;
+}
+h1{
+	font-size: 1.5em;
+	
+}
+h2{
+	font-size: 1.2em;
+	
+}
+h3{
+	font-size: 1.2em;
+}
+footer{
+	background: #343434;
+	margin: 1em 0 0 0;
+	width: 100%;
+}
+p{
+	font-size: 1em;
+}
+#logo{	
+	position: static;	
+	margin: 2% 0 2% 38%;	
+	width: 24%;
+}
+#logo img{
+	width: 100%;
+}
+
+#cont {
+	background:white;
+	border: 1px  solid #909090;
+	border-radius: 0.5em 0.5em 0 0;
+	margin: 1.2% 0 0 3.5%;
+	padding: 1em 1em 0.5em 1em;
+	text-align: left;
+	width: 90%;
+}
+#cont h1 {
+	background: #04131e;
+	color: white;
+	margin: 0;
+	padding: 0.3em 0 0.3em 1em;	
+	text-align: left;
+	width:98%;
+}
+#intro {
+	margin: 1em 0 0 0;
+	padding: 0 1.5em 0 1.5em;	
+	width: 50%;
+}
+#intro p {	
+	text-align: justify;
+}
+#foto1 {
+
+	width: 40%;
+}
+#foto1 img{
+	width: 100%;
+}
+#foto1, #intro  {
+	margin: 1em 0  1em 0;
+	display: inline-block;
+	vertical-align: top;
+}
+#datos{
+	background: #cde9ff;
+	box-shadow: rgba(0,0,0,0.3) -3px 5px 8px, rgba(0,0,0,0.3) -3px -5px 8px ;
+	width: 100%;
+}
+
+#info1 {
+	background: #def1ff;
+	margin: 0;
+	padding: 2em;
+	width: 50%;
+	
+} 
+#objetivo{
+	background: white;
+	border: 1px solid #ccc;
+	border-radius: 0 0 0.5em 0.5em;	
+	padding: 0 1em 0 1em;	
+	width: 40%;
+}
+#objetivo h2{
+	background: #04131e;
+	color: white;	
+	margin: 0 0 1em -1em;
+	padding: 0.4em 1em 0.4em 1em;
+	text-align: left;
+	width:100%;
+
+}
+#objetivo p{	
+	text-align: justify;
+
+}
+#objetivo #foto2{
+
+	width: 100%;
+}
+#objetivo img{
+	width: 100%;
+}
+
+
+#mercado {
+	background: white;
+	border: 1px solid #ccc;
+	border-radius: 0 0 0.5em 0.5em;	
+	padding: 0 1em 1em 1em;	
+	width: 40%;
+}
+#mercado h2{
+	background: #04131e;
+	color: white;	
+	margin: 0 0 1em -1em;
+	padding: 0.4em 1em 0.4em 1em;
+	text-align: left;
+	width: 100%;
+
+}
+#mercado ul{
+	text-align: left;
+}
+#mercado #foto3{
+	width: 100%
+}
+#mercado img{
+	width: 100%;
+}
+
+#objetivo , #mercado {
+	margin: 0 0 1em 1em;
+	display: inline-block;
+	vertical-align: top;
+}
+#requerimientos {
+	background: white;
+	border: 1px solid #ccc;
+	border-radius: 0 0 0.5em 0.5em;
+	margin: 0 0 0 2em;
+	padding: 0 1em 1em 1em; 
+	width: 88%;
+}
+#requerimientos h2{
+	background: #04131e;
+	color: white;	
+	margin: 0 0 1em -1em;
+	padding: 0.4em 1em 0.4em 1em;
+	text-align: left;
+	width: 100%;
+}
+#requerimientos h3{
+	font-weight: bold;
+}
+#hardware {
+	margin: 0 1em 0 0;
+	text-align: left;
+	width: 52%;
+}
+#requerimientos #foto4 {
+	width: 40%;
+}
+#foto4 img{
+	
+	width: 100%;
+}
+#hardware, #foto4{
+	display: inline-block;
+	vertical-align: top;
+}
+#admon{
+	margin: 0 1em 0 0;
+	text-align: left;
+	width: 52%;
+}
+#requerimientos #foto5{
+	margin: 2em 0 0 0;
+	width: 40%;
+}
+#foto5 img{
+	
+	width: 100%;
+}
+#admon, #foto5{
+	display: inline-block;
+	vertical-align: top;
+}
+#izquierda {
+	background: #cde9ff;
+	margin: 0;
+	padding: 2em;
+	width:40%;
+}
+#info1, #izquierda{
+	display: inline-block;
+	margin: 0;
+	vertical-align: top;
+}
+#ventajas {
+	background: white;
+	border: 1px solid #ccc;
+	border-radius: 0 0 0.5em 0.5em;	
+	padding: 0.4em 1em 1em 1em;
+	text-align: center;;
+	width: 90%;
+}
+#ventajas h2{
+	background: #04131e;
+	color: white;	
+	margin: -0.3em 0 1em -1em;
+	padding: 0.5em 1em 0.5em 1em;
+	text-align: left;
+	width: 100%;
+}
+#ventajas figure{
+	margin: 0 1em 1em 0;
+	text-align: center;
+	width: 18%;
+}
+#ventajas img{
+	width: 100%;
+}
+#ventajas figcaption {
+	color: #04131e;
+	font-size: 0.7em;
+	text-align: center;
+	
+}
+
+#ico1, #ico2, #ico3, #ico4, #ico5, #ico6, #ico7{
+	display: inline-block;
+	vertical-align: top;
+}
+#galeria {
+	background: white;
+	border: 1px solid #ccc;
+	border-radius: 0 0 0.5em 0.5em;	
+	margin: 1em 0 0 0;
+	padding: 0.4em 1em 1em 1em;
+	text-align: center;;
+	width: 90%;
+
+}
+
+#galeria h2{
+	background: #04131e;
+	color: white;	
+	margin: -0.3em 0 1em -1em;
+	padding: 0.5em 1em 0.5em 1em;
+	text-align: left;
+	width: 100%;
+}
+#galeria figure{
+	border: 1px solid #ccc;
+	border-radius: 0 0 0.5em 0.5em;	
+	display: inline-block;
+	margin: 0 0.5em 0 0 ;
+	width: 30%;
+	vertical-align: top;
+}
+#galeria img{
+	width: 100%;
+}
+#sistemas{
+	
+	margin:1em 0 0 0;
+	padding: 1em 0 1em 0;
+	width: 100%;
+}
+
+#azul{
+	background: #157bb9;
+	border-radius: 0.5em;
+	padding: 0.5em;
+	width: 28%;
+}
+
+#azul #control, #verde #mante, #gris #concretos{	
+	text-align: left;
+	padding: 0.8em;
+	width:60%;
+
+}
+#azul #control h3, #verde #mante h3, #gris #concretos h3{
+	color: #434242;
+	text-align: center;
+	width: 100%;
+
+}
+#azul #control p, #verde #mante p, #gris #concretos p{
+	color: #434242;
+}
+#azul #control a, #verde #mante a, #gris #concretos a{
+	color: red;
+	font-weight: bold;
+	text-decoration: none;
+}
+#azul #control a:hover, #verde #mante a:hover, #gris #concretos a:hover {
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+#azul #sistema1{
+	width: 30%;
+}
+#azul #sistema1 img{
+	width: 100%;
+}
+#azul #sistema1, #azul #control{
+	display: inline-block;
+	vertical-align: top;
+}
+#verde{
+	background: #017f73;
+	border-radius: 0.5em;
+	padding: 0.5em;
+	width: 28%;
+}
+
+#verde #sistema2, #verde #mante{
+	display: inline-block;
+	vertical-align: top;
+}
+#verde #sistema2{
+	width: 30%;
+}
+#verde #sistema2 img{
+	width: 100%;
+}
+#gris{
+	background: #adadad;
+	border-radius: 0.5em;
+	padding: 0.5em;
+	width: 28%;
+}
+
+#gris #sistema3{
+	width: 30%;
+}
+#gris #sistema3 img{
+	width: 100%;
+}
+#gris #sistema3, #gris #concretos{
+	display: inline-block;
+	vertical-align: top;
+}
+#azul, #verde, #gris{
+	display: inline-block;
+	margin: 0 0 0 1em;
+	vertical-align: top;
+}
+#mopro {
+	margin: 1em 1em 1em 15%;
+	width: 10%;
+}
+#mopro {
+	width: 8%;
+}
+#mopro img{
+	width: 100%;
+}
+#gris2 {
+	background: #212121;
+	text-align: left;
+	width:75%;
+}
+#gris2 p {
+	margin: 2em 0 0 2em;
+	padding: 2em 1em 5em 1em;
+}
+#gris2 a{
+	color: red;
+	text-decoration: none;
+}
+#gris2 a:hover {
+	color: #a01c1c;
+	text-decoration: none;
+}
+#mopro, #gris2{
+	display: inline-block;	
+	vertical-align: top;
+}
